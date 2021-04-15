@@ -1,0 +1,14 @@
+{
+  "name": "Sample",
+  "version": "1.0.0",
+  "manifest_version": 2,
+  "description": "login helper",
+  "content_scripts": [
+    {
+      "matches": [ "https://wiki.kazuma.tokyo/" ],
+      "js": [
+        "content.js"
+      ]
+    }
+  ]
+}
