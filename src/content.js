@@ -10,5 +10,5 @@ window.onload = function() {
       var message = 'inamuu.comのログイン画面です'
     break
   }
-  window.alert(message);
+  if (message) { window.alert(message) }
 }
