@@ -1,14 +1,15 @@
 {
-  "name": "Sample",
-  "version": "1.0.0",
+  "name": "Login Helper",
+  "version": "0.0.1",
   "manifest_version": 2,
   "description": "login helper",
   "content_scripts": [
     {
-      "matches": [ "https://wiki.kazuma.tokyo/" ],
-      "js": [
-        "content.js"
-      ]
+      "matches": [ 
+        "https://wiki.kazuma.tokyo/*",
+        "https://inamuu.com/*"
+      ],
+      "js": [ "content.js" ]
     }
   ]
 }
